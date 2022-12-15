@@ -1,1 +1,65 @@
 /* Write your CSS here! */
+html {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
+
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #ADA2FF;
+    font-size: 100%;
+}
+
+header {
+    background-color: #C0DEFF;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 1%;
+}
+
+section {
+    background-color: #C0DEFF;
+    border-radius: 25px;
+}
+
+h2 {
+    padding-left: 2%;
+}
+
+p {
+    padding: 0% 3% 0%;
+}
+
+img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding: 5%;
+}
